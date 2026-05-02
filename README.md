@@ -1,4 +1,4 @@
-# Security Testing Portfolio
+# OWASP Top 10 Security Automation
 
 Automated web application security tests built with **Robot Framework**.
 
