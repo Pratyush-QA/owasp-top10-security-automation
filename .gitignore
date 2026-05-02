@@ -1,0 +1,12 @@
+results/
+output.xml
+log.html
+report.html
+__pycache__/
+*.pyc
+.venv/
+.env
+/tmp/shell.php
+/tmp/shell.php.jpg
+/tmp/shell.gif
+*.DS_Store

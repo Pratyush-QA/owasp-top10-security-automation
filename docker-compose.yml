@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  dvwa:
+    image: vulnerables/web-dvwa
+    container_name: dvwa
+    ports:
+      - "4280:80"
+    environment:
+      - MYSQL_ROOT_PASSWORD=dvwa
+    restart: unless-stopped
+
+  # Optional: MySQL if the above image needs a separate DB
+  # db:
+  #   image: mysql:5.7
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: dvwa
+  #     MYSQL_DATABASE: dvwa
+  #   ports:
+  #     - "3306:3306"
