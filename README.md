@@ -75,7 +75,7 @@ robot --include critical --outputdir results Tests/
 ## Project Structure
 
 ```
-security-testing-portfolio/
+owasp-top10-security-automation/
 ├── Tests/
 │   ├── 01_SQL_Injection/       SQLInjection_Tests.robot
 │   ├── 02_XSS/                 XSS_Tests.robot
